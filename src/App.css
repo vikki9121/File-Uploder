@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  letter-spacing: 1px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  border: 2px dashed black;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: rgb(255, 239, 150);
+  opacity: 50%;
+  margin-bottom: 20px ;
+}
+
+.dropzone button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropzone button:hover {
+  background-color: limegreen;
+  transition: 1;
+}
+
+.dropzone:hover {
+  background-color: rgb(200, 250, 91);
+  opacity: 80%;
+  transition: 1s;
+}
+
+button{
+  padding: 12px;
+  font-size: medium;
+}
+
+img {
+  width: 300px;
+  margin: 10px;
+}
+
+.authenticate {
+  display: flex;
+  flex-direction: row;
+}
+
+.logout {
+  height: 8vh;
+  width: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 5vw;
+  background-color: goldenrod;
+}
+
+.login {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+
+.login-window {
+  display: flex;
+  height: 40vh;
+  margin-right: 25vw;
+  margin-left: 25vw;
+  width: 50vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+}
+
+/* .authenticate {
+  display: flex;
+  height: 40vh;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  width: 50vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+.login input {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  border: black;
+
+}
+
+.login button {
+  width: 15vw;
+  min-width: 8vw;
+  height: 6vh;
+  border: none;
+  background-color: darkgreen;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar {
+  width: 60vw;
+}
+.logout-button {
+  min-width: 6vw;
+  min-height: 6vh;
+  border: none;
+  background-color: darkgreen;
+  color: white;
+  font-size: .75rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login h3 {
+  font-size: 10;
+}
+
+.authenticate div {
+  padding: 5vw;
+}
+
+.login form button:hover {
+  background-color: limegreen;
+  transition: .5s;
+}
+
+.wrongLogin {
+  font-size: 14px;
+  color: red;
+  margin-top: 15px;
+}
+
+.upload {
+  display: flex;
+  height: 50vh;
+  margin-right: 25vw;
+  margin-left: 25vw;
+  margin-top: 10vh;
+  width: 50vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+}
+
+.upload button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload input::file-selector-button {
+  background-color: darkgreen;
+  color: white;;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.upload input::file-selector-button:hover {
+  background-color: limegreen;
+  transition: .5s;
+}
+
+
+.upload button:hover {
+  background-color: limegreen;
+  transition: .5s;
+}
+
+
+.login button:hover {
+  background-color: limegreen;
+  transition: .8s;
+}
+
+.register-button {
+  min-width: 4vw;
+  min-height: 6vh;
+  border: none;
+  background-color: darkgreen;
+  color: white;
+  font-size: .75rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer
+}
+
+.register-button:hover {
+  background-color: red;
+  transition: .8s;
+}
